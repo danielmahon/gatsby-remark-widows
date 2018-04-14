@@ -4,15 +4,11 @@ Automatically adds a non-breaking space between the last 2 words in a text node 
 
 ---
 
-## Example Text
-
 ### Nulla et exercitation excepteur ullamco <br/>eiusmod.
 
 Lorem ipsum dolor sit Lorem irure aliquip magna labore qui<br/>velit officia aliquip deserunt aliqua. Aute tempor fugiat nisi<br/>adipisicing et aliquip sint minim cupidatat elit consequat<br/>et.
 
-<p align="center">
-**:arrow_down:**
-</p>
+:arrow_down:
 
 ### Nulla et exercitation excepteur<br/>ullamco eiusmod.
 
@@ -24,7 +20,8 @@ Lorem ipsum dolor sit Lorem irure aliquip magna labore qui<br/>velit officia ali
 
 `npm install --save gatsby-remark-widows`
 
-Currently uses `\u00a0` to insert a space so you don't need to use `dangerouslySetInnerHTML`. Your browser should™ render that as `&nbsp;`
+Currently uses `\u00a0` to insert a space so you don't need to use `dangerouslySetInnerHTML`.  
+Your browser should™ render that as `&nbsp;`
 
 > **Warning:** This currently effects **every text node**. You can limit by word count via the options.
 
